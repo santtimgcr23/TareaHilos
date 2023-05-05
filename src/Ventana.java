@@ -43,6 +43,7 @@ public class Ventana implements ActionListener{
 
     private void blink(){
         while(true){
+            //OJO, se necesita esta pausa
             System.out.println(activo);
             if (activo){
                 try {
